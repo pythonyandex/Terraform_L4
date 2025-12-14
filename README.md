@@ -63,6 +63,10 @@ module "vpc_dev" {
 Приложите список выполненных команд и скриншоты процессы.
 
 ### Решение 3
+Скриншо terraform_plan: ![terraform_plan](https://github.com/pythonyandex/Terraform_L4/blob/main/terraform_plan_t3.png)
+Скриншо nginx: ![terraform_list_t3](https://github.com/pythonyandex/Terraform_L4/blob/main/terraform_list_t3.png)
+Скриншо nginx: ![terraform_delete_vpc](https://github.com/pythonyandex/Terraform_L4/blob/main/terraform_delete_vpc_vm.png)
+Скриншо nginx: ![terraform_import_after_delete](https://github.com/pythonyandex/Terraform_L4/blob/main/terraform_import_after_delete_t4.png)
 
 ## Дополнительные задания (со звёздочкой*)
 
