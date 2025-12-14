@@ -31,16 +31,6 @@ variable "description" {
   default     = null
 }
 
-variable "dhcp_options" {
-  type = object({
-    domain_name         = optional(string)
-    domain_name_servers = optional(list(string))
-    ntp_servers         = optional(list(string))
-  })
-  description = "Настройки DHCP для всех подсетей"
-  default     = null
-}
-
 variable "labels" {
   type        = map(string)
   description = "Дополнительные метки для всех ресурсов"
