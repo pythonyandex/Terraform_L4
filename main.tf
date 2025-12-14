@@ -28,8 +28,7 @@ module "mysql_cluster" {
   ]
   ha_mode      = true
   
-  # ИСПРАВЛЕНО: Используем правильное значение
-  environment  = "PRODUCTION"  # Вместо "prod"
+  environment  = "PRODUCTION" 
   
   database_name = "app_database"
   username      = "app_user"
