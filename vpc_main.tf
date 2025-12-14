@@ -7,7 +7,6 @@ resource "yandex_vpc_network" "network" {
   labels = var.labels
 }
 
-# Динамически создаём подсети в каждой зоне
 resource "yandex_vpc_subnet" "subnets" {
   for_each = { for idx, subnet in var.subnets : idx => subnet }
 
