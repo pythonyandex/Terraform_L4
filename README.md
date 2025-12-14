@@ -27,8 +27,12 @@
 3. Добавьте в файл cloud-init.yml установку nginx.
 4. Предоставьте скриншот подключения к консоли и вывод команды ```sudo nginx -t```, скриншот консоли ВМ yandex cloud с их метками. Откройте terraform console и предоставьте скриншот содержимого модуля. Пример: > module.marketing_vm
 ------
-В случае использования MacOS вы получите ошибку "Incompatible provider version" . В этом случае скачайте remote модуль локально и поправьте в нем версию template провайдера на более старую.
-------
+### Решение 1
+Скриншо nginx: ![nginx](https://github.com/pythonyandex/Terraform_L4/blob/main/nginx_t_task1.png)
+
+Скриншоты Yandex Cloud: ![Accounting](https://github.com/pythonyandex/Terraform_L4/blob/main/Yandex_Cloud_Tag_Analytics.png)
+
+![Marketing](https://github.com/pythonyandex/Terraform_L4/blob/main/Yandex_Cloud_Tag_Marketing.png)
 
 ### Задание 2
 
