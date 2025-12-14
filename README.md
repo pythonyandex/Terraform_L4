@@ -59,7 +59,9 @@ module "vpc_dev" {
 Добавил решение после того, как занялся Заданием 4*.
 
 Ссылка на vpc_main.tf [vpc_main.tf](https://github.com/pythonyandex/Terraform_L4/blob/main/vpc_main.tf)
+
 Ссылка на vpc_variables.tf [vpc_variables.tf](https://github.com/pythonyandex/Terraform_L4/blob/main/vpc_variables.tf)
+
 Ссылка на общий main.tf [vpc_main.tf](https://github.com/pythonyandex/Terraform_L4/blob/main/vpc_main.tf)
 
 
