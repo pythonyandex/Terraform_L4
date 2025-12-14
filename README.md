@@ -34,6 +34,7 @@
 
 ![Marketing](https://github.com/pythonyandex/Terraform_L4/blob/main/Yandex_Cloud_Tag_Marketing.png)
 
+Скриншот Console: ![Console](https://github.com/pythonyandex/Terraform_L4/blob/main/terraform_console_t1.png)
 ### Задание 2
 
 1. Напишите локальный модуль vpc, который будет создавать 2 ресурса: **одну** сеть и **одну** подсеть в зоне, объявленной при вызове модуля, например: ```ru-central1-a```.
